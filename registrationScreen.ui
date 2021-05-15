@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Form</class>
- <widget class="QWidget" name="Form">
+ <class>registerForm</class>
+ <widget class="QWidget" name="registerForm">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -103,21 +103,21 @@
     <string>Password</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="telephoneNumber">
-   <property name="geometry">
-    <rect>
-     <x>220</x>
-     <y>140</y>
-     <width>361</width>
-     <height>22</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QLineEdit" name="username">
    <property name="geometry">
     <rect>
      <x>220</x>
      <y>90</y>
+     <width>361</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="telephone">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>140</y>
      <width>361</width>
      <height>22</height>
     </rect>
