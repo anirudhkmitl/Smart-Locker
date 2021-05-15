@@ -16,7 +16,7 @@
   <widget class="QLabel" name="registerLabel">
    <property name="geometry">
     <rect>
-     <x>210</x>
+     <x>230</x>
      <y>20</y>
      <width>311</width>
      <height>51</height>
@@ -35,7 +35,7 @@
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>110</y>
+     <y>90</y>
      <width>41</width>
      <height>21</height>
     </rect>
@@ -53,7 +53,7 @@
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>160</y>
+     <y>140</y>
      <width>101</width>
      <height>21</height>
     </rect>
@@ -67,11 +67,11 @@
     <string>Telephone no.</string>
    </property>
   </widget>
-  <widget class="QLabel" name="telephoneLabel_2">
+  <widget class="QLabel" name="passconfirmLable">
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>260</y>
+     <y>240</y>
      <width>161</width>
      <height>21</height>
     </rect>
@@ -89,7 +89,7 @@
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>210</y>
+     <y>190</y>
      <width>101</width>
      <height>21</height>
     </rect>
@@ -107,7 +107,7 @@
    <property name="geometry">
     <rect>
      <x>220</x>
-     <y>160</y>
+     <y>140</y>
      <width>361</width>
      <height>22</height>
     </rect>
@@ -117,7 +117,7 @@
    <property name="geometry">
     <rect>
      <x>220</x>
-     <y>110</y>
+     <y>90</y>
      <width>361</width>
      <height>22</height>
     </rect>
@@ -127,7 +127,7 @@
    <property name="geometry">
     <rect>
      <x>220</x>
-     <y>210</y>
+     <y>190</y>
      <width>361</width>
      <height>22</height>
     </rect>
@@ -137,7 +137,7 @@
    <property name="geometry">
     <rect>
      <x>220</x>
-     <y>260</y>
+     <y>240</y>
      <width>361</width>
      <height>22</height>
     </rect>
@@ -146,8 +146,8 @@
   <widget class="QPushButton" name="registerBtn">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>340</y>
+     <x>240</x>
+     <y>450</y>
      <width>281</width>
      <height>31</height>
     </rect>
@@ -159,6 +159,43 @@
    </property>
    <property name="text">
     <string>Register</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="userImage">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>290</y>
+     <width>141</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="text">
+    <string>**image goes here**</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ProfileLabel">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>350</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Profile Picture</string>
    </property>
   </widget>
  </widget>
