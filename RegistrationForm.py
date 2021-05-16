@@ -10,6 +10,11 @@ class registrationFormUI(QMainWindow):
         self.ui = Ui_registerForm()
         self.ui.setupUi(self)
 
+        self.ui.registerBtn.clicked.connect(self.register)
+
+    def register(self):
+        pass
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     w = registrationFormUI()
