@@ -12,11 +12,11 @@ class Ui_userInfoUI(object):
     def setupUi(self, userInfoUI):
         userInfoUI.setObjectName("userInfoUI")
         userInfoUI.resize(730, 500)
-        self.userImage = QtWidgets.QLabel(userInfoUI)
-        self.userImage.setGeometry(QtCore.QRect(250, 20, 181, 181))
-        self.userImage.setFrameShape(QtWidgets.QFrame.Box)
-        self.userImage.setAlignment(QtCore.Qt.AlignCenter)
-        self.userImage.setObjectName("userImage")
+        #self.userImage = QtWidgets.QLabel(userInfoUI)
+        #self.userImage.setGeometry(QtCore.QRect(250, 20, 181, 181))
+        #self.userImage.setFrameShape(QtWidgets.QFrame.Box)
+        #self.userImage.setAlignment(QtCore.Qt.AlignCenter)
+        #self.userImage.setObjectName("userImage")
         self.passwordInput = QtWidgets.QLineEdit(userInfoUI)
         self.passwordInput.setGeometry(QtCore.QRect(230, 230, 241, 21))
         self.passwordInput.setEchoMode(QtWidgets.QLineEdit.Password)
@@ -70,7 +70,7 @@ class Ui_userInfoUI(object):
     def retranslateUi(self, userInfoUI):
         _translate = QtCore.QCoreApplication.translate
         userInfoUI.setWindowTitle(_translate("userInfoUI", "Form"))
-        self.userImage.setText(_translate("userInfoUI", "**image goes here**"))
+        #self.userImage.setText(_translate("userInfoUI", "**image goes here**"))
         self.btnZero.setText(_translate("userInfoUI", "0"))
         self.btnClear.setText(_translate("userInfoUI", "Clear"))
         self.btnOne.setText(_translate("userInfoUI", "1"))
