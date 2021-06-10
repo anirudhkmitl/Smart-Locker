@@ -16,8 +16,8 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>150</y>
+     <x>130</x>
+     <y>130</y>
      <width>81</width>
      <height>31</height>
     </rect>
@@ -31,21 +31,11 @@
     <string>Name:</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit">
-   <property name="geometry">
-    <rect>
-     <x>180</x>
-     <y>60</y>
-     <width>201</width>
-     <height>22</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>240</y>
+     <x>130</x>
+     <y>220</y>
      <width>111</width>
      <height>31</height>
     </rect>
@@ -59,29 +49,11 @@
     <string>RfidTag:</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_3">
-   <property name="geometry">
-    <rect>
-     <x>60</x>
-     <y>60</y>
-     <width>71</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>12</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>UserID</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>340</y>
+     <x>130</x>
+     <y>320</y>
      <width>55</width>
      <height>16</height>
     </rect>
@@ -98,8 +70,8 @@
   <widget class="QLineEdit" name="lineEdit_2">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>160</y>
+     <x>250</x>
+     <y>140</y>
      <width>201</width>
      <height>22</height>
     </rect>
@@ -108,8 +80,8 @@
   <widget class="QLineEdit" name="lineEdit_3">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>250</y>
+     <x>250</x>
+     <y>230</y>
      <width>201</width>
      <height>22</height>
     </rect>
@@ -118,11 +90,16 @@
   <widget class="QLineEdit" name="lineEdit_4">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>340</y>
+     <x>250</x>
+     <y>320</y>
      <width>201</width>
      <height>22</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton">
