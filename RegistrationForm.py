@@ -11,8 +11,12 @@ class registrationFormUI(QMainWindow):
         self.ui.setupUi(self)
 
         self.ui.registerBtn.clicked.connect(self.register)
+        self.ui.pictureLabel.clicked.connect(self.openpicture)
 
     def register(self):
+        pass
+
+    def openpicture(self):
         pass
 
 if __name__ == '__main__':

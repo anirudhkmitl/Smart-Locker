@@ -71,9 +71,9 @@ class Ui_registerForm(object):
         self.ProfileLabel.setObjectName(u"ProfileLabel")
         self.ProfileLabel.setGeometry(QRect(60, 350, 161, 21))
         self.ProfileLabel.setFont(font1)
-        self.pushButton = QPushButton(registerForm)
-        self.pushButton.setObjectName(u"pushButton")
-        self.pushButton.setGeometry(QRect(460, 400, 111, 24))
+        self.pictureLabel = QPushButton(registerForm)
+        self.pictureLabel.setObjectName(u"pictureLabel")
+        self.pictureLabel.setGeometry(QRect(460, 400, 111, 24))
 
         self.retranslateUi(registerForm)
 
