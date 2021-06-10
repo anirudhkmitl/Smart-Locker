@@ -204,6 +204,19 @@
     <string>Profile Picture</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>400</y>
+     <width>111</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Insert picture</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
